@@ -90,7 +90,10 @@ body {
 .doneList {
   margin-top: 20px;
 }
-
+.doneList:hover{
+  background-color: var(--green);
+  transition: .5s;
+}
 .module {
   background-color: var(--dark);
 }
@@ -122,6 +125,7 @@ body {
 
 .active {
   font-weight: bold;
+  transition: .3s;
 }
 
 .show {
